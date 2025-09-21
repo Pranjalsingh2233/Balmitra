@@ -86,7 +86,7 @@ export default function () {
                     </li>
                     <li>
                       <Link class="dropdown-item" to="/about/balmitra-way">
-                        About Our School
+                        Balmitra Way
                       </Link>
                     </li>
                   </ul>
