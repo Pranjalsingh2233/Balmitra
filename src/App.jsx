@@ -4,7 +4,7 @@ import { Route, Routes } from "react-router-dom";
 import Home from "./pages/Home";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
-import AboutSchool from "./pages/aboutPage/aboutSchool";
+import AboutSchool from "./pages/aboutPage/AboutSchool";
 import About from "./pages/aboutPage/About";
 import AboutPrincipal from "./pages/aboutPage/AboutPrincipal";
 import BalmitraWay from "./pages/aboutPage/BalmitraWay";
