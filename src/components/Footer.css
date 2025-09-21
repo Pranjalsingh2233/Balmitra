@@ -1,0 +1,33 @@
+/* aeafb1 */
+footer {
+    background-color: #22335f;
+    color: #fff;
+}
+
+a {
+    color: #fff;
+    text-decoration: none;
+}
+
+a:hover {
+    opacity: 0.8;
+}
+
+.profile {
+    font-size: 1.5rem;
+}
+
+.bottom-links {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.visibility {
+    opacity: 0.8;
+}
+
+.logo {
+    width: 100px;
+}

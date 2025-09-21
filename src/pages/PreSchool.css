@@ -1,0 +1,52 @@
+.custom-wrapper {
+    background-image: url("/photo_9_2025-09-20_00-42-26.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    height: 70vh;
+}
+
+.custom-wrapper img {
+    position: absolute;
+    bottom: 0rem;
+    width: 100%;
+}
+
+.float-box {
+    width: 100%;
+    position: relative;
+    
+}
+
+.floating-img {
+    width: fit-content;
+    height: 25rem;
+    border-radius: 14px;
+    position: absolute;
+    right: 0;
+    transform: rotate(15deg);
+}
+
+.floating-img2 {
+    width: fit-content;
+    height: 25rem;
+    border-radius: 14px;
+    transform: translateX(-100%) rotate(-12deg);
+    position: absolute;
+    right: 0;
+}
+
+.fit-img {
+    height: 500px;
+    background-image: url("/photo_5_2025-09-20_00-42-09.jpg");
+    background-size: cover;
+    background-position: center;
+    clip-path: polygon(5% 11%, 96% 8%, 95% 98%, 8% 91%);
+}
+
+@media (min-width: 1000px) {
+    .custom-wrapper img {
+        bottom: -5rem !important
+    }
+}

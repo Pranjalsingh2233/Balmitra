@@ -1,0 +1,14 @@
+.card {
+    width: 100%;
+    border-radius: 14px;
+}
+
+.card img {
+    border-top-left-radius: 14px;
+    border-top-right-radius: 14px;
+}
+
+.card h2 {
+    padding: 15px;
+    text-align: center;
+}

@@ -1,0 +1,9 @@
+.navbar {
+    z-index: 1000 !important;
+    background-color: #fff;
+    height: 90px;
+}
+
+.navbar-brand img {
+    width: 70px;
+}

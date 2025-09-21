@@ -1,0 +1,124 @@
+.wrapper {
+    background-color: #22335f;
+    color: #fff;
+    padding-bottom: 10px;
+    position: relative;
+}
+
+.bg-home {
+    background: 
+    linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), 
+    url("/photo_2_2025-09-20_00-42-26.jpg");  
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 70vh;
+}
+
+.padding {
+    padding: 0 15rem;
+}
+
+.custom-btn {
+    width: 250px;
+    padding: 10px 0;
+    background-color: #22335f;
+    color: #fff;
+    border: none;
+    margin: auto;
+    font-size: 1.2rem;
+    border-radius: 14px;
+}
+
+.video {
+    width: 100%;
+    height: 300px;
+    border-radius: 20px;
+    object-fit: cover; 
+}
+
+.text-col {
+    color: #22335f;
+}
+
+hr {
+    border: none;
+    border-top: 2px solid #000;
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 100%;
+    cursor: pointer;
+}
+
+.box img{
+    border-top-left-radius: 14px ;
+    border-top-right-radius: 14px ;
+    width: 100%;
+    height: 25rem;
+    object-fit: cover;
+}
+
+.inner-box {
+    background-color: #22335f;
+    color: #fff;
+    padding: 1rem 3rem;
+    position: relative;
+    border-bottom-left-radius: 14px;
+    border-bottom-right-radius: 14px;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.icon {
+    font-size: 1.5rem;
+    position: absolute;
+    right: 1.5rem;
+    top: 50%;
+    transform: translateY(-12px);
+    transition: all 0.1s ease;
+}
+
+.box:hover .icon {
+    right: 1rem
+}
+
+.box:hover .inner-box {
+    background-color: #1b294c;
+}
+
+.rounded {
+    border-radius: 14px;
+}
+
+.outer {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+.inner {
+    border: 3px solid #22335f;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+}
+
+.bg-color {
+    background-color: #22335f;
+}
+
+.fix-logo {
+    width: 100px !important;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50px);
+    bottom: -40px;
+}
