@@ -50,3 +50,38 @@
         bottom: -5rem !important
     }
 }
+
+@media (max-width: 768px) {
+    .fit-img {
+        height: 300px;
+        width: 50%;
+    }
+
+    .fix-sm {
+        justify-content: center;
+        text-align: center;
+    }
+}
+
+@media (max-width: 1200px) {
+    .floating-img, .floating-img2 {
+        height: 20rem;
+        left: 50%;
+    }
+}
+
+@media (max-width: 992px) {
+    .margin {
+        margin-top: 22rem;
+    }
+}
+
+@media (max-width: 560px) {
+     .floating-img, .floating-img2 {
+        height: 11rem;
+        top: 2rem;
+    }
+    .margin {
+        margin-top: 15rem;
+    }
+}

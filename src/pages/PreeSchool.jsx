@@ -7,13 +7,13 @@ export default function PreeSchool() {
       <div className="custom-wrapper mb-5">
         <img src="/wave.svg" alt="wave" />
       </div>
-      <div className="container p-md-5">
+      <div className="container p-lg-5">
         <div className="row p-md-5">
           <h1 className="mb-5">
             Unlock your child’s full potential at Bal Mitra School Pre-School –
             where early learning begins with care, creativity, and confidence.
           </h1>
-          <div className="col-md-4 text-start">
+          <div className="col-lg-4 text-start">
             <p>
               These early years are the most formative in a child’s development,
               as they begin to explore and make sense of the world around them.
@@ -26,7 +26,7 @@ export default function PreeSchool() {
               Choose Bal Mitra School.
             </p>
           </div>
-          <div className="col-md-8">
+          <div className="col-lg-8">
             <div className="float-box">
               <img
                 src="/photo_8_2025-09-20_00-42-26.jpg"
@@ -42,7 +42,7 @@ export default function PreeSchool() {
           </div>
         </div>
       </div>
-      <img src="/wave-greendown.svg" alt="wave" />
+      <img src="/wave-greendown.svg" alt="wave" className="margin" />
       <div
         className="container-fluid p-5"
         style={{ backgroundColor: "#47c242", color: "white" }}
@@ -69,28 +69,28 @@ export default function PreeSchool() {
 
       <div className="container p-md-3">
         <div className="row p-md-5 text-center">
-          <div className="col-md-3">
+          <div className="col-md-3 col-6 mb-3">
             <img
               src="/photo_4_2025-09-20_00-42-09.jpg"
               className="img-fluid rounded"
               alt="gallery"
             />
           </div>
-          <div className="col-md-3">
+          <div className="col-md-3 col-6">
             <img
               src="/photo_6_2025-09-20_00-42-09.jpg"
               className="img-fluid rounded"
               alt="gallery"
             />
           </div>
-          <div className="col-md-3">
+          <div className="col-md-3 col-6">
             <img
               src="/photo_8_2025-09-20_00-42-21.jpg"
               className="img-fluid rounded"
               alt="gallery"
             />
           </div>
-          <div className="col-md-3 mb-5">
+          <div className="col-md-3 mb-5 col-6">
             <img
               src="/photo_7_2025-09-20_00-42-21.jpg"
               className="img-fluid rounded"
@@ -114,7 +114,7 @@ export default function PreeSchool() {
         className="container-fluid"
         style={{ backgroundColor: "#00a8e6", color: "white" }}
       >
-        <div className="row align-items-center ps-md-5 pe-md-5">
+        <div className="row align-items-center ps-md-5 pe-md-5 fix-sm">
           <div className="col-md-6 fit-img"></div>
           <div className="col-md-6">
             <h2 className="mb-5">The Bal Mitra School Difference</h2>

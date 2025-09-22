@@ -66,7 +66,7 @@ function Footer() {
               </div>
               <div className="col-10 visibility">
                 <div>Email Address</div>
-                <p>brandmedia10112003@gmail.com</p>
+                <p>balmitra@gmail.com</p>
               </div>
             </div>
           </div>

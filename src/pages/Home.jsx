@@ -125,28 +125,28 @@ export default function Home() {
 
       <div className="container p-md-3 mb-5">
         <div className="row p-md-5 text-center">
-          <div className="col-md-3">
+          <div className="col-md-3 col-6">
             <img
               src="/photo_4_2025-09-20_00-42-09.jpg"
-              className="img-fluid rounded"
+              className="img-fluid mb-3 rounded"
               alt="gallery"
             />
           </div>
-          <div className="col-md-3">
+          <div className="col-md-3 col-6">
             <img
               src="/photo_6_2025-09-20_00-42-09.jpg"
               className="img-fluid rounded"
               alt="gallery"
             />
           </div>
-          <div className="col-md-3">
+          <div className="col-md-3 col-6">
             <img
               src="/photo_8_2025-09-20_00-42-26.jpg"
               className="img-fluid rounded"
               alt="gallery"
             />
           </div>
-          <div className="col-md-3 mb-5">
+          <div className="col-md-3 col-6 mb-5">
             <img
               src="/photo_5_2025-09-20_00-42-09.jpg"
               className="img-fluid rounded"

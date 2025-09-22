@@ -13,9 +13,8 @@ Our school offers excellent facilities both inside and outside the classroom, in
         para2="As our students progress through Primary to Secondary, they are encouraged to embrace greater freedom and take on more responsibility for their personal growth and achievements. Guided by specialist teachers, they follow a comprehensive and challenging curriculum that goes well beyond the standard requirements. At Bal Mitra School, learners are supported in extending their knowledge, refining their skills, and excelling in an environment filled with encouragement and care."
         img2="/photo_2_2025-09-20_00-42-09.jpg"
       />
-      <div className="container p-md-3">
-        <hr />
-        <div className="row p-md-5 text-center align-items-center">
+      <div className="container">
+        <div className="row text-center align-items-center">
           <h2>Beyond the classroom</h2>
           <div className="col-md-8 offset-md-2 mt-3">
             <p>
@@ -27,7 +26,7 @@ Our school offers excellent facilities both inside and outside the classroom, in
             </p>
           </div>
           <h2 className="mt-5">Music</h2>
-          <div className="col-md-6 mt-5 mb-5">
+          <div className="col-md-6 mt-5 mb-md-5">
             <img
               src="/photo_6_2025-09-20_00-42-09.jpg"
               className="img-fluid"
@@ -40,7 +39,7 @@ Our school offers excellent facilities both inside and outside the classroom, in
               }}
             />
           </div>
-          <div className="col-md-6 mt-5 p-5 mb-5">
+          <div className="col-md-6 mt-5 p-md-5 mb-5">
             <p>
               The standard and scope of music at Bal Mitra School are truly
               exceptional, engaging every student through the dedication of our
@@ -50,9 +49,9 @@ Our school offers excellent facilities both inside and outside the classroom, in
               instruments regularly as an integral part of their education.
             </p>
           </div>
-          <h2 className="mt-5">Drama</h2>
+          <h2 className="mt-md-5">Drama</h2>
 
-          <div className="col-md-6 mt-5 p-5 mb-5">
+          <div className="col-md-6 mt-md-5 p-md-5 mb-5">
             <p>
               At Bal Mitra School, Performing Arts play a vital role in
               nurturing creativity, self-expression, and confidence. Through
@@ -66,7 +65,7 @@ Our school offers excellent facilities both inside and outside the classroom, in
               blossoming into assured performers.
             </p>
           </div>
-          <div className="col-md-6 mt-5 mb-5">
+          <div className="col-md-6 mt-md-5 mb-5">
             <img
               src="/photo_6_2025-09-20_00-42-26.jpg"
               className="img-fluid"
@@ -80,7 +79,7 @@ Our school offers excellent facilities both inside and outside the classroom, in
             />
           </div>
           <h2 className="mt-5">Sport</h2>
-          <div className="col-md-6 mt-5 mb-5">
+          <div className="col-md-6 mt-md-5 mt-3 mb-md-5">
             <img
               src="/photo_3_2025-09-20_00-42-34.jpg"
               className="img-fluid"
@@ -93,7 +92,7 @@ Our school offers excellent facilities both inside and outside the classroom, in
               }}
             />
           </div>
-          <div className="col-md-6 mt-5 p-5 mb-5">
+          <div className="col-md-6 mt-5 p-md-5 mb-md-5">
             <p>
               Our wide-ranging programme of physical and creative activities
               inspires students to explore new interests while developing their
@@ -105,7 +104,7 @@ Our school offers excellent facilities both inside and outside the classroom, in
             </p>
           </div>
           <h2 className="mt-5">Art</h2>
-          <div className="col-md-6 mt-5 p-5 mb-5">
+          <div className="col-md-6 mt-md-5 mt-3 p-md-5 mb-5">
             <p>
               At Bal Mitra School, our aim is to instill in every student a
               lasting love and appreciation for Art that will remain with them
@@ -120,7 +119,7 @@ Our school offers excellent facilities both inside and outside the classroom, in
               the world from fresh perspectives.
             </p>
           </div>
-          <div className="col-md-6 mt-5 mb-5">
+          <div className="col-md-6 mt-md-5 mb-5">
             <img
               src="/photo_5_2025-09-20_00-42-26.jpg"
               className="img-fluid"
