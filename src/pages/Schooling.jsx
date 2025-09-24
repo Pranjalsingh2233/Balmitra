@@ -15,7 +15,7 @@ Our school offers excellent facilities both inside and outside the classroom, in
       />
       <div className="container">
         <div className="row text-center align-items-center">
-          <h2>Beyond the classroom</h2>
+          <h2 className="text-col">Beyond the classroom</h2>
           <div className="col-md-8 offset-md-2 mt-3">
             <p>
               At Bal Mitra School, academics are just one part of a broad,

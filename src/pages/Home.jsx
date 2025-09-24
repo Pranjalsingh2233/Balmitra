@@ -36,7 +36,7 @@ export default function Home() {
 
       <div className="container p-md-3 mb-5">
         <div className="row p-md-5 text-center">
-          <h2 className="fs-1 mb-5">Extraordinary journeys begin here.</h2>
+          <h2 className="fs-1 mb-5 text-col">Extraordinary journeys begin here.</h2>
           <div className="col-md-8 offset-md-2">
             <p className="fs-5 text-muted">
               Choosing the right school for your child can feel overwhelming,
@@ -55,7 +55,7 @@ export default function Home() {
 
       <div className="container p-md-3 mb-5">
         <div className="row p-md-5 text-center justify-content-center align-items-center">
-          <h2 className="fs-1">A Very Warm Welcome From Our Principal</h2>
+          <h2 className="fs-1 text-col">A Very Warm Welcome From Our Principal</h2>
           <div className="col-lg-6 mt-5">
             <video className="video" src="" autoPlay controls></video>
           </div>
@@ -153,7 +153,7 @@ export default function Home() {
               alt="gallery"
             />
           </div>
-          <h2 className="fs-1 mb-3">
+          <h2 className="fs-1 mb-3 text-col">
             Ready to start the journey of a lifetime?
           </h2>
           <p className="text-muted mb-5">

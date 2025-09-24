@@ -21,7 +21,7 @@ function Footer() {
                 <i class="fa-brands fa-whatsapp profile "></i>
               </a>
               <a href="" target="_blank">
-                <i class="fa-brands fa-square-linkedin profile"></i>
+                <i class="fa-brands fa-youtube profile"></i>
               </a>
             </div>
           </div>
