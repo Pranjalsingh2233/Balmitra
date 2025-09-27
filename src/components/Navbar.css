@@ -22,7 +22,7 @@
     border-radius: 10px;
 }
 
-.dropdown-item:hover {
+.dropdown-menu .dropdown-item:hover {
     background-color: #fff;
     color: #22335f !important;
     border-radius: 5px;
@@ -45,11 +45,11 @@
 }
 
 .sidebar a {
-    color: #fff;
+    color: #fff !important;
 }
 
 .sidebar a:hover {
-    color: inherit;
+    color: inherit !important;
 }
 .sidebar a:focus {
     color: inherit !important;

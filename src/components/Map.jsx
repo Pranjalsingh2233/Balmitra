@@ -1,29 +1,44 @@
-import { useEffect } from "react";
-import maplibregl from "maplibre-gl";
+import React from "react";
+import GoogleMapReact from "google-map-react";
 
-function MyMap() {
-  useEffect(() => {
-    const map = new maplibregl.Map({
-      container: "map",
-      style: `https://api.maptiler.com/maps/streets/style.json?key=${
-        import.meta.env.VITE_MAP_KEY
-      }`,
-      center: [81.77880629470101, 25.453560850902548], // lng, lat
-      zoom: 17,
-    });
-    const marker = new maplibregl.Marker({ color: "red" }) //For marker
-      .setLngLat([81.77880629470101, 25.453560850902548])
-      .setPopup(
-        new maplibregl.Popup({ offset: 25 }).setHTML(
-          `<h4>Bal Mitra School</h4><p>Exact location will be provided after booking</p>`
-        )
-      )
-      .addTo(map);
+const Marker = ({ text }) => (
+  <div
+    style={{
+      color: "white",
+      background: "red",
+      padding: "6px 8px",
+      borderRadius: "50%",
+      textAlign: "center",
+      transform: "translate(-50%, -50%)",
+      fontSize: "14px",
+      fontWeight: "bold",
+    }}
+  >
+    {text}
+  </div>
+);
 
-    return () => map.remove();
-  }, []);
+const SimpleMapPage = ({
+  center = [59.938043, 30.337157],
+  zoom = 9,
+  greatPlaceCoords = { lat: 59.724465, lng: 30.080121 },
+}) => {
+  return (
+    <div style={{ height: "100vh", width: "100%" }}>
+      <GoogleMapReact
+        bootstrapURLKeys={{ key: "AIzaSyAO1zNMvKRiCt7zk-RrfKARDfUcH88ycwU" }}
+        center={center}
+        zoom={zoom}
+      >
+        <Marker lat={59.955413} lng={30.337844} text="A" />
+        <Marker
+          lat={greatPlaceCoords.lat}
+          lng={greatPlaceCoords.lng}
+          text="B"
+        />
+      </GoogleMapReact>
+    </div>
+  );
+};
 
-  return <div id="map" style={{ width: "100%", height: "400px" }} />;
-}
-
-export default MyMap;
+export default SimpleMapPage;

@@ -80,7 +80,11 @@ export default function () {
                   </a>
                   <ul class="dropdown-menu">
                     <li>
-                      <Link class="dropdown-item" to="/about/about-school">
+                      <Link
+                        class="dropdown-item"
+                        to="/about/about-school"
+                        onClick={handleClose}
+                      >
                         <i class="fa-solid fa-angles-right"></i>&nbsp; About Our
                         School
                       </Link>
@@ -89,13 +93,18 @@ export default function () {
                       <Link
                         class="dropdown-item"
                         to="/about/word-from-principal"
+                        onClick={handleClose}
                       >
                         <i class="fa-solid fa-angles-right"></i>&nbsp; A Word
                         from Our Principal
                       </Link>
                     </li>
                     <li>
-                      <Link class="dropdown-item" to="/about/balmitra-way">
+                      <Link
+                        class="dropdown-item"
+                        to="/about/balmitra-way"
+                        onClick={handleClose}
+                      >
                         <i class="fa-solid fa-angles-right"></i>&nbsp; Balmitra
                         Way
                       </Link>
