@@ -29,6 +29,26 @@
     margin: auto;
     font-size: 1.2rem;
     border-radius: 14px;
+    position: relative;
+}
+
+.custom-btn:hover {
+    background-color: #1b294c;  
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.btn-icon {
+    position: absolute;
+    opacity: 0  ;
+    right: 15px;
+    top: 50%;
+    transform: translateY(-50%);
+    transition: all 0.2s ease;
+}
+
+.custom-btn:hover .btn-icon {
+    opacity: 1;
+    right: 10px;
 }
 
 .video {
@@ -39,7 +59,7 @@
 }
 
 .text-col {
-    color: #22335f;
+    color: #22335f !important;
 }
 
 hr {

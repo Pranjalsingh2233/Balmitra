@@ -105,7 +105,10 @@ export default function PreeSchool() {
             request a prospectus, schedule a private visit, or simply request a
             call back.
           </p>
-          <button className="custom-btn">Contact Us</button>
+          <button className="custom-btn">
+            Contact Us &nbsp;
+            <i class="fa-solid fa-angles-right btn-icon"></i>
+          </button>
         </div>
       </div>
 

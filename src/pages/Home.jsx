@@ -19,7 +19,7 @@ export default function Home() {
   useEffect(() => {
     const interval = setInterval(() => {
       setIndex((prev) => (prev >= 7 ? 0 : prev + 1));
-    }, 10000);
+    }, 5000);
 
     return () => clearInterval(interval);
   }, [index]);
@@ -34,9 +34,11 @@ export default function Home() {
         <img src="/logo.png" alt="student" className="fix-logo" />
       </div>
 
-      <div className="container p-md-3 mb-5">
+      <div className="container p-md-3 mb-5 down">
         <div className="row p-md-5 text-center">
-          <h2 className="fs-1 mb-5 text-col">Extraordinary journeys begin here.</h2>
+          <h2 className="fs-1 mb-5 text-col">
+            Extraordinary journeys begin here.
+          </h2>
           <div className="col-md-8 offset-md-2">
             <p className="fs-5 text-muted">
               Choosing the right school for your child can feel overwhelming,
@@ -48,14 +50,19 @@ export default function Home() {
               development because of our balanced approach to education and the
               supportive, nurturing environment we create.
             </p>
-            <button className="custom-btn">Begin Your Journey</button>
+            <button className="custom-btn">
+              Begin Your Journey &nbsp;
+              <i class="fa-solid fa-angles-right btn-icon"></i>
+            </button>
           </div>
         </div>
       </div>
 
       <div className="container p-md-3 mb-5">
         <div className="row p-md-5 text-center justify-content-center align-items-center">
-          <h2 className="fs-1 text-col">A Very Warm Welcome From Our Principal</h2>
+          <h2 className="fs-1 text-col">
+            A Very Warm Welcome From Our Principal
+          </h2>
           <div className="col-lg-6 mt-5">
             <video className="video" src="" autoPlay controls></video>
           </div>
@@ -161,7 +168,10 @@ export default function Home() {
             request a prospectus, schedule a private visit, or simply request a
             call back.
           </p>
-          <button className="custom-btn">Contact Us</button>
+          <button className="custom-btn">
+            Contact Us &nbsp;
+            <i class="fa-solid fa-angles-right btn-icon"></i>
+          </button>
         </div>
       </div>
     </>

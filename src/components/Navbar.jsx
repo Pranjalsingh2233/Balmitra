@@ -31,7 +31,7 @@ export default function () {
             <span class="navbar-toggler-icon"></span>
           </button>
           <div
-            class="offcanvas offcanvas-end"
+            class="offcanvas offcanvas-end sidebar"
             tabindex="-1"
             id="offcanvasNavbar"
             aria-labelledby="offcanvasNavbarLabel"
@@ -48,11 +48,13 @@ export default function () {
               ></button>
             </div>
             <div class="offcanvas-body">
-              <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+              <ul class="navbar-nav justify-content-end flex-grow-1 pe-3 fw-bold">
                 <li class="nav-item">
                   <Link
                     className={
-                      location.pathname === "/" ? "nav-link text" : "nav-link"
+                      location.pathname === "/"
+                        ? "nav-link text-col"
+                        : "nav-link"
                     }
                     to="/"
                     onClick={handleClose}
@@ -62,7 +64,13 @@ export default function () {
                 </li>
                 <li class="nav-item dropdown">
                   <a
-                    class="nav-link dropdown-toggle"
+                    className={
+                      location.pathname === "/about/about-school" ||
+                      location.pathname === "/about/word-from-principal" ||
+                      location.pathname === "/about/balmitra-way"
+                        ? "nav-link dropdown-toggle text-col"
+                        : "nav-link dropdown-toggle"
+                    }
                     href="#"
                     role="button"
                     data-bs-toggle="dropdown"
@@ -73,7 +81,8 @@ export default function () {
                   <ul class="dropdown-menu">
                     <li>
                       <Link class="dropdown-item" to="/about/about-school">
-                        About Our School
+                        <i class="fa-solid fa-angles-right"></i>&nbsp; About Our
+                        School
                       </Link>
                     </li>
                     <li>
@@ -81,12 +90,14 @@ export default function () {
                         class="dropdown-item"
                         to="/about/word-from-principal"
                       >
-                        A Word from Our Principal
+                        <i class="fa-solid fa-angles-right"></i>&nbsp; A Word
+                        from Our Principal
                       </Link>
                     </li>
                     <li>
                       <Link class="dropdown-item" to="/about/balmitra-way">
-                        Balmitra Way
+                        <i class="fa-solid fa-angles-right"></i>&nbsp; Balmitra
+                        Way
                       </Link>
                     </li>
                   </ul>
@@ -95,8 +106,8 @@ export default function () {
                 <li class="nav-item">
                   <Link
                     className={
-                      location.pathname === "/preschool"
-                        ? "nav-link text"
+                      location.pathname === "/admission"
+                        ? "nav-link text-col"
                         : "nav-link"
                     }
                     to="/admission"
@@ -109,7 +120,7 @@ export default function () {
                   <Link
                     className={
                       location.pathname === "/preschool"
-                        ? "nav-link text"
+                        ? "nav-link text-col"
                         : "nav-link"
                     }
                     to="/preschool"
@@ -121,8 +132,8 @@ export default function () {
                 <li class="nav-item">
                   <Link
                     className={
-                      location.pathname === "/team"
-                        ? "nav-link text"
+                      location.pathname === "/schooling"
+                        ? "nav-link text-col"
                         : "nav-link"
                     }
                     to="/schooling"
@@ -135,7 +146,7 @@ export default function () {
                   <Link
                     className={
                       location.pathname === "/contact"
-                        ? "nav-link text"
+                        ? "nav-link text-col"
                         : "nav-link"
                     }
                     to="/contact"

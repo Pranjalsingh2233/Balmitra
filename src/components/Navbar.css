@@ -7,3 +7,59 @@
 .navbar-brand img {
     width: 70px;
 }
+
+.nav-link {
+    color: #000;
+}
+
+.nav-link:hover {
+    color: #22335f;
+}
+
+.dropdown-menu {
+    background-color: #22335f;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.dropdown-item:hover {
+    background-color: #fff;
+    color: #22335f !important;
+    border-radius: 5px;
+}
+
+.dropdown-item:focus {
+    color: #22335f !important;
+    background-color: #fff !important;
+    border-radius: 5px;
+}
+
+.dropdown-menu a {
+    color: #fff !important;
+}
+
+@media(max-width: 767px) {
+.sidebar {
+    background-color: #22335f;
+    color: #fff
+}
+
+.sidebar a {
+    color: #fff;
+}
+
+.sidebar a:hover {
+    color: inherit;
+}
+.sidebar a:focus {
+    color: inherit !important;
+}
+
+.sidebar .offcanvas-header {
+    border-bottom: 1px solid #fff;
+}   
+
+.btn-close {
+    background-color: #fff;
+}
+}

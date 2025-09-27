@@ -135,7 +135,8 @@ export default function Contact() {
 
                   <div className="d-grid">
                     <button type="submit" className="custom-btn">
-                      Send Message
+                      Send Message &nbsp;
+                      <i class="fa-solid fa-angles-right btn-icon"></i>
                     </button>
                   </div>
                   {submitted && (
