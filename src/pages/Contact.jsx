@@ -40,7 +40,7 @@ export default function Contact() {
 
   return (
     <>
-      {/* <Map /> */}
+      <Map />
       <div className="container mt-5">
         <div className="row align-items-center">
           <div className="col-lg-6">

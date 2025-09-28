@@ -1,44 +1,34 @@
-import React from "react";
-import GoogleMapReact from "google-map-react";
+// Using Maplibre
+import * as React from "react";
+import { Map, Marker } from "react-map-gl/maplibre";
+import "maplibre-gl/dist/maplibre-gl.css";
 
-const Marker = ({ text }) => (
-  <div
-    style={{
-      color: "white",
-      background: "red",
-      padding: "6px 8px",
-      borderRadius: "50%",
-      textAlign: "center",
-      transform: "translate(-50%, -50%)",
-      fontSize: "14px",
-      fontWeight: "bold",
-    }}
-  >
-    {text}
-  </div>
-);
-
-const SimpleMapPage = ({
-  center = [59.938043, 30.337157],
-  zoom = 9,
-  greatPlaceCoords = { lat: 59.724465, lng: 30.080121 },
-}) => {
+export default function MyMap() {
   return (
-    <div style={{ height: "100vh", width: "100%" }}>
-      <GoogleMapReact
-        bootstrapURLKeys={{ key: "AIzaSyAO1zNMvKRiCt7zk-RrfKARDfUcH88ycwU" }}
-        center={center}
-        zoom={zoom}
-      >
-        <Marker lat={59.955413} lng={30.337844} text="A" />
-        <Marker
-          lat={greatPlaceCoords.lat}
-          lng={greatPlaceCoords.lng}
-          text="B"
-        />
-      </GoogleMapReact>
-    </div>
+    <Map
+      initialViewState={{
+        longitude: 81.77875265052504,
+        latitude: 25.45351241374354,
+        zoom: 15,
+      }}
+      style={{ height: 500, borderRadius: "10px" }}
+      mapStyle={`https://api.maptiler.com/maps/streets/style.json?key=${
+        import.meta.env.VITE_MAP_KEY
+      }`}
+    >
+      <Marker longitude={81.77875265052504} latitude={25.45351241374354}>
+        <div
+          style={{
+            backgroundColor: "#fff",
+            width: "50px",
+            height: "50px",
+            borderRadius: "50%",
+            border: "2px solid #000",
+          }}
+        >
+          <img src="/logo.png" alt="logo" className="img-fluid" />
+        </div>
+      </Marker>
+    </Map>
   );
-};
-
-export default SimpleMapPage;
+}
