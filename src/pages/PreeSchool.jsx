@@ -1,9 +1,16 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import "./PreSchool.css";
+import Seo from "../components/Seo";
 
 export default function PreeSchool() {
   return (
     <>
+      <Seo
+        title="Preschool – Bal Mitra School, Prayagraj"
+        description="Enroll your child in Bal Mitra Preschool in Prayagraj for a nurturing start to their educational journey. We focus on early learning, holistic development, and creating a joyful, safe environment for little learners."
+      />
+
       <div className="custom-wrapper mb-5">
         <img src="/wave.svg" alt="wave" />
       </div>
@@ -105,10 +112,10 @@ export default function PreeSchool() {
             request a prospectus, schedule a private visit, or simply request a
             call back.
           </p>
-          <button className="custom-btn">
+          <Link className="custom-btn" to="/contact">
             Contact Us &nbsp;
             <i class="fa-solid fa-angles-right btn-icon"></i>
-          </button>
+          </Link>
         </div>
       </div>
 

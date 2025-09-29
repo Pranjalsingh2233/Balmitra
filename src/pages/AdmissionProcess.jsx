@@ -1,9 +1,15 @@
 import React from "react";
 import Hero from "../components/Hero";
+import Seo from "../components/Seo";
 
 export default function AdmissionProcess() {
   return (
     <>
+      <Seo
+        title="Admissions – Bal Mitra School, Prayagraj"
+        description="Apply to Bal Mitra School in Prayagraj and give your child a strong foundation for the future. Learn about our admission process, age groups, and how we nurture academic and personal growth."
+      />
+
       <Hero
         img="/photo_4_2025-09-20_00-42-26.jpg"
         heading="Admissions procedure"

@@ -1,5 +1,6 @@
 import { useState } from "react";
 import Map from "../components/Map";
+import Seo from "../components/Seo";
 
 export default function Contact() {
   const [formData, setFormData] = useState({
@@ -40,6 +41,11 @@ export default function Contact() {
 
   return (
     <>
+      <Seo
+        title="Contact Bal Mitra School, Prayagraj – Get in Touch"
+        description="Get in touch with Bal Mitra School in Prayagraj for admissions, inquiries, or more information. Our team is here to answer your questions and guide you through your child’s educational journey."
+      />
+
       <Map />
       <div className="container mt-5">
         <div className="row align-items-center">

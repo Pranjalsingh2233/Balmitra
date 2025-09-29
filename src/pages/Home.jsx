@@ -1,16 +1,20 @@
 import React, { useEffect, useState } from "react";
+import { Link } from "react-router-dom";
+import Seo from "../components/Seo";
 import "./Home.css";
 
 export default function Home() {
   const reviews = [
-    "dummy1",
-    "dummy2",
-    "dummy3",
-    "dummy4",
-    "dummy5",
-    "dummy6",
-    "dummy7",
-    "dummy8",
+    "Bal Mitra has an amazing environment. My child loves going to school every day!",
+    "The teachers at Bal Mitra are very caring and supportive. Highly recommend this school.",
+    "Our child has grown so much socially and academically. Thank you, Bal Mitra!",
+    "Bal Mitra makes learning fun and engaging. We see our child excited every morning.",
+    "The staff is friendly and approachable. Our child feels safe and happy here.",
+    "Bal Mitra truly focuses on each child's development. We are very pleased with the progress.",
+    "From day one, our child felt welcomed. Bal Mitra is more than just a school!",
+    "The activities and learning methods are excellent. Our child enjoys every class.",
+    "Bal Mitra offers a nurturing environment. Our child’s confidence has improved a lot.",
+    "We love the dedication of the teachers. Our child looks forward to school every day!",
   ];
 
   const [index, setIndex] = useState(0);
@@ -26,6 +30,10 @@ export default function Home() {
 
   return (
     <>
+      <Seo
+        title="Bal Mitra School, Prayagraj – Nurturing Education & Holistic Development"
+        description="Bal Mitra School in Prayagraj provides a caring, high-quality education for children from preschool to primary levels. Enroll your child for a strong academic foundation and holistic growth."
+      />
       <div className="wrapper mb-5 bg-home ">
         <div className="p-5 text-center fw-bold">
           <h1 className="fw-bold">Welcome to Bal Mitra</h1>
@@ -46,14 +54,14 @@ export default function Home() {
               when your child feels both comfortable and inspired.
             </p>
             <p className="fs-5 text-muted mb-5">
-              At West House, parents entrust us with their children’s care and
-              development because of our balanced approach to education and the
-              supportive, nurturing environment we create.
+              At Bal Mitra, parents trust us with their children’s care and
+              development because of our balanced approach to learning and the
+              warm, nurturing environment we provide.
             </p>
-            <button className="custom-btn">
+            <Link className="custom-btn" to="/contact">
               Begin Your Journey &nbsp;
               <i class="fa-solid fa-angles-right btn-icon"></i>
-            </button>
+            </Link>
           </div>
         </div>
       </div>
@@ -61,7 +69,7 @@ export default function Home() {
       <div className="container p-md-3 mb-5">
         <div className="row p-md-5 text-center justify-content-center align-items-center">
           <h2 className="fs-1 text-col">
-            A Very Warm Welcome From Our Principal
+            A Very Warm Welcome From Our Director
           </h2>
           <div className="col-lg-6 mt-5">
             <video className="video" src="" autoPlay controls></video>
@@ -79,7 +87,7 @@ export default function Home() {
       <div className="container p-md-3 mb-5">
         <div className="row p-md-5">
           <div className="col-lg-6 mt-5">
-            <div className="box">
+            <Link className="box" to="/preschool">
               <div>
                 <img
                   src="/photo_9_2025-09-20_00-42-26.jpg"
@@ -92,10 +100,10 @@ export default function Home() {
                 <p>Welcoming little learners from 1 year onwards</p>
                 <i class="fa-solid fa-angles-right icon"></i>
               </div>
-            </div>
+            </Link>
           </div>
           <div className="col-lg-6 mt-5">
-            <div className="box">
+            <Link className="box" to="/schooling">
               <div>
                 <img
                   src="/photo_8_2025-09-20_00-42-09.jpg"
@@ -108,7 +116,7 @@ export default function Home() {
                 <p>Guiding young minds from Nursery through Grade 12</p>
                 <i class="fa-solid fa-angles-right icon"></i>
               </div>
-            </div>{" "}
+            </Link>{" "}
           </div>
         </div>
       </div>
@@ -168,10 +176,10 @@ export default function Home() {
             request a prospectus, schedule a private visit, or simply request a
             call back.
           </p>
-          <button className="custom-btn">
+          <Link className="custom-btn" to="/contact">
             Contact Us &nbsp;
             <i class="fa-solid fa-angles-right btn-icon"></i>
-          </button>
+          </Link>
         </div>
       </div>
     </>

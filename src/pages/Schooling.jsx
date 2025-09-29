@@ -1,9 +1,15 @@
 import React from "react";
 import Hero from "../components/Hero";
+import Seo from "../components/Seo";
 
 export default function Schooling() {
   return (
     <>
+      <Seo
+        title="Primary & Secondary Education – Bal Mitra School, Prayagraj"
+        description="Bal Mitra School in Prayagraj offers a seamless journey from primary to secondary education, focusing on academic excellence, holistic development, and nurturing confident, well-rounded students."
+      />
+
       <Hero
         img="/photo_1_2025-09-20_00-42-26.jpg"
         heading="Primary to Senior Secondary School"
