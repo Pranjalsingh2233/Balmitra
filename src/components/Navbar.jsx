@@ -111,20 +111,6 @@ export default function () {
                     </li>
                   </ul>
                 </li>
-
-                <li class="nav-item">
-                  <Link
-                    className={
-                      location.pathname === "/admission"
-                        ? "nav-link text-col"
-                        : "nav-link"
-                    }
-                    to="/admission"
-                    onClick={handleClose}
-                  >
-                    Admission
-                  </Link>
-                </li>
                 <li class="nav-item">
                   <Link
                     className={

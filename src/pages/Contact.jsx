@@ -22,21 +22,33 @@ export default function Contact() {
     }));
   };
 
-  const handleSubmit = (e) => {
+  const handleSubmit = async (e) => {
     e.preventDefault();
-    console.log("Form submitted:", formData);
-
     setSubmitted(true);
-    setFormData({
-      name: "",
-      email: "",
-      phone: "",
-      purpose: "",
-      subject: "",
-      message: "",
-    });
 
-    setTimeout(() => setSubmitted(false), 3000);
+    try {
+      const res = await fetch("http://localhost:8080/contact-balmitra", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify(formData),
+      });
+
+      setFormData({
+        name: "",
+        email: "",
+        phone: "",
+        purpose: "",
+        subject: "",
+        message: "",
+      });
+
+      setTimeout(() => setSubmitted(false), 3000);
+    } catch (error) {
+      console.error("Error submitting form:", error);
+      setSubmitted(false);
+    }
   };
 
   return (
@@ -168,21 +180,42 @@ export default function Contact() {
             <p>Social</p>
             <p className="fw-bold fs-4 mb-5">
               <div className="d-flex">
-                <a href="" target="_blank" className="mb-4 me-3">
+                <a
+                  href="https://www.instagram.com/balmitraschoolofficial/"
+                  target="_blank"
+                  className="mb-4 me-3"
+                >
                   <i
                     class="fa-brands fa-instagram profile"
                     style={{ color: "#22335f", fontSize: "2rem" }}
                   ></i>
                 </a>
-                <a href="https://wa.me/" target="_blank" className="me-3">
+                <a
+                  href="https://www.facebook.com/Balmitraschool/"
+                  target="_blank"
+                  className="me-3"
+                >
+                  <i
+                    class="fa-brands fa-facebook profile"
+                    style={{ color: "#22335f", fontSize: "2rem" }}
+                  ></i>
+                </a>
+                <a
+                  href="https://wa.me/8400399265"
+                  target="_blank"
+                  className="me-3"
+                >
                   <i
                     class="fa-brands fa-whatsapp profile "
                     style={{ color: "#22335f", fontSize: "2rem" }}
                   ></i>
                 </a>
-                <a href="" target="_blank">
+                <a
+                  href="https://www.linkedin.com/company/balmitraschool/"
+                  target="_blank"
+                >
                   <i
-                    class="fa-brands fa-youtube profile"
+                    class="fa-brands fa-linkedin profile"
                     style={{ color: "#22335f", fontSize: "2rem" }}
                   ></i>
                 </a>

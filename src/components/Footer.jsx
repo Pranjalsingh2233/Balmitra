@@ -14,14 +14,32 @@ function Footer() {
               unique talents and helps them reach their fullest potential.
             </p>
             <div className="d-flex">
-              <a href="" target="_blank" className="mb-4 me-3">
+              <a
+                href="https://www.instagram.com/balmitraschoolofficial/"
+                target="_blank"
+                className="mb-4 me-3"
+              >
                 <i class="fa-brands fa-instagram profile"></i>
               </a>
-              <a href="https://wa.me/" target="_blank" className="me-3">
+              <a
+                href="https://www.facebook.com/Balmitraschool/"
+                target="_blank"
+                className="me-3"
+              >
+                <i class="fa-brands fa-facebook profile"></i>
+              </a>
+              <a
+                href="https://wa.me/8400399265"
+                target="_blank"
+                className="me-3"
+              >
                 <i class="fa-brands fa-whatsapp profile "></i>
               </a>
-              <a href="" target="_blank">
-                <i class="fa-brands fa-youtube profile"></i>
+              <a
+                href="https://www.linkedin.com/company/balmitraschool/"
+                target="_blank"
+              >
+                <i class="fa-brands fa-linkedin profile"></i>
               </a>
             </div>
           </div>
@@ -31,12 +49,12 @@ function Footer() {
               About
             </Link>
             <br />
-            <Link to="/services" className="visibility">
-              Services
+            <Link to="/preschool" className="visibility">
+              Preschool
             </Link>
             <br />
-            <Link to="/team" className="visibility">
-              Team
+            <Link to="/schooling" className="visibility">
+              Schooling
             </Link>
             <br />
             <Link to="/contact" className="visibility">
@@ -59,14 +77,14 @@ function Footer() {
               </div>
               <div className="col-10 visibility">
                 <div>Phone Number</div>
-                <p>+91 945-287-3121</p>
+                <p>+91 840-039-9265</p>
               </div>
               <div className="col-2 mb-3">
                 <i class="fa-solid fa-envelope profile"></i>
               </div>
               <div className="col-10 visibility">
                 <div>Email Address</div>
-                <p>balmitra@gmail.com</p>
+                <p>balmitraschool@gmail.com</p>
               </div>
             </div>
           </div>

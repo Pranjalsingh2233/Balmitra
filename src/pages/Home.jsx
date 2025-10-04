@@ -22,7 +22,7 @@ export default function Home() {
 
   useEffect(() => {
     const interval = setInterval(() => {
-      setIndex((prev) => (prev >= 7 ? 0 : prev + 1));
+      setIndex((prev) => (prev >= 9 ? 0 : prev + 1));
     }, 5000);
 
     return () => clearInterval(interval);
@@ -125,7 +125,7 @@ export default function Home() {
         <hr />
         <div className="row p-md-5 text-center">
           <h3 className="mb-5 fs-1">"{currReview}"</h3>
-          <p className="mb-4">Parent</p>
+          <p className="mb-4">Parents</p>
           <div className="outer">
             {reviews.map((rev, key) => (
               <div

@@ -9,7 +9,6 @@ import About from "./pages/aboutPage/About";
 import AboutPrincipal from "./pages/aboutPage/AboutPrincipal";
 import BalmitraWay from "./pages/aboutPage/BalmitraWay";
 import Schooling from "./pages/Schooling";
-import AdmissionProcess from "./pages/AdmissionProcess";
 import PreeSchool from "./pages/PreeSchool";
 import Contact from "./pages/Contact";
 
@@ -26,7 +25,6 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="/schooling" element={<Schooling />} />
         <Route path="/preschool" element={<PreeSchool />} />
-        <Route path="/admission" element={<AdmissionProcess />} />
         <Route path="/about" element={<About />} />
         <Route path="/contact" element={<Contact />} />
         <Route path="/about/about-school" element={<AboutSchool />} />
