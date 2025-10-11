@@ -70,7 +70,10 @@ function Footer() {
               </div>
               <div className="col-10 visibility">
                 <div>Our Location</div>
-                <p>Rajrooppur, Prayagraj</p>
+                <p>
+                  near Water Tank, Preetam Nagar, MIG Preetam Nagar Colony,
+                  Dhoomanganj, Prayagraj, Uttar Pradesh 211011
+                </p>
               </div>
               <div className="col-2 mb-3">
                 <i class="fa-solid fa-phone profile"></i>
@@ -91,7 +94,7 @@ function Footer() {
         </div>
         <div>
           <div className="p-md-5 bottom-links visibility">
-            <div> &copy; 2024-2025, Bal Mitra School</div>
+            <div> &copy; 1986-2025, Bal Mitra School</div>
             <div> All rights reserved.</div>
           </div>
         </div>

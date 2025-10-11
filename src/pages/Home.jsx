@@ -37,7 +37,9 @@ export default function Home() {
       <div className="wrapper mb-5 bg-home ">
         <div className="p-5 text-center fw-bold">
           <h1 className="fw-bold">Welcome to Bal Mitra</h1>
-          <p className="fs-5 mt-3">The Perfect Place for Every Child</p>
+          <h2 className="fs-5 mt-3">
+            The Perfect School for Every Child in Prayagraj
+          </h2>
         </div>
         <img src="/logo.png" alt="student" className="fix-logo" />
       </div>
@@ -49,14 +51,16 @@ export default function Home() {
           </h2>
           <div className="col-md-8 offset-md-2">
             <p className="fs-5 text-muted">
-              Choosing the right school for your child can feel overwhelming,
-              but we believe the moment you find the right fit, you’ll know—it’s
-              when your child feels both comfortable and inspired.
+              Choosing the right school for your child in Prayagraj can feel
+              overwhelming, but the moment you find the right fit, you’ll
+              know—it’s when your child feels both comfortable and inspired.
             </p>
             <p className="fs-5 text-muted mb-5">
-              At Bal Mitra, parents trust us with their children’s care and
-              development because of our balanced approach to learning and the
-              warm, nurturing environment we provide.
+              At Bal Mitra School, Prayagraj, parents trust us with their
+              children’s growth and development because of our balanced approach
+              to learning and our warm, nurturing environment. We strive to
+              create a joyful space where every child can learn, play, and
+              thrive with confidence.
             </p>
             <Link className="custom-btn" to="/contact">
               Begin Your Journey &nbsp;

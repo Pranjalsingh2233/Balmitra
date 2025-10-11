@@ -12,10 +12,10 @@ export default function Schooling() {
 
       <Hero
         img="/photo_1_2025-09-20_00-42-26.jpg"
-        heading="Primary to Senior Secondary School"
-        para1="Bal Mitra School is a thriving Primary to Secondary institution that nurtures students from Classes 1 to 12. Our academic achievements are commendable, but they represent only one aspect of our story. At Bal Mitra, we place a strong emphasis on community, encouraging every student to discover their individuality while learning how they can contribute meaningfully to the wider world.
+        heading="Bal Mitra Primary to Senior Secondary School in Prayagraj"
+        para1="Bal Mitra School, Prayagraj, is a thriving Primary to Senior Secondary institution nurturing students from Classes 1 to 12. Our academic achievements are commendable, but they represent only one part of our story. At Bal Mitra, we emphasize community, character, and creativity—encouraging every student to discover their individuality and make meaningful contributions to the world around them.
 
-Our school offers excellent facilities both inside and outside the classroom, including purpose-built specialist teaching rooms, a modern sports hall, all-weather sports grounds, a nature centre, and spacious areas for exploration and play."
+Located in Prayagraj, our campus offers state-of-the-art facilities, including dedicated subject-specific classrooms, a modern sports hall, all-weather sports grounds, a nature centre, and spacious areas designed for exploration, play, and growth."
         para2="As our students progress through Primary to Secondary, they are encouraged to embrace greater freedom and take on more responsibility for their personal growth and achievements. Guided by specialist teachers, they follow a comprehensive and challenging curriculum that goes well beyond the standard requirements. At Bal Mitra School, learners are supported in extending their knowledge, refining their skills, and excelling in an environment filled with encouragement and care."
         img2="/photo_2_2025-09-20_00-42-09.jpg"
       />

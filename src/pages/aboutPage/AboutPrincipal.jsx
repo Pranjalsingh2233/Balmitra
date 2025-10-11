@@ -13,8 +13,16 @@ export default function AboutPrincipal() {
       <Hero
         img="/photo_10_2025-09-20_00-42-09.jpg"
         heading="A word from our Director"
-        para1="From the moment I first walked through the doors of Bal Mitra, I knew it was a special place. My school days were filled with warmth, purpose, and countless opportunities that went far beyond the classroom. That experience has shaped my vision for what Bal Mitra continues to offer its pupils today. Above all, I want to see children arriving each morning with excitement—ready to dive into school life, embrace new challenges, and celebrate every success along the way. While academic excellence is at the heart of what we do, it is often the wider experiences that create the most lasting memories—whether it’s participating in sports, enjoying creative competitions, or performing on stage. These are the moments our children will carry with them long after their time at Bal Mitra."
-        para2="Bal Mitra is a truly distinctive school. Parents value our open-door approach, appreciating the ease with which they can connect with staff and share in their child’s learning journey. Their support and pride in their children’s achievements form an essential part of our close-knit community. As a nurturing school, Bal Mitra has earned a reputation for helping every child achieve far beyond expectations. By combining the best of our traditions with a forward-looking approach to learning, we provide an exceptional education that prepares our students not only for the next stage of their schooling but also for life in the 21st century."
+        para1="From the very first day I stepped into Bal Mitra School, Prayagraj, I could sense that it was more than just a place of learning—it was a community built on care, purpose, and a shared vision for every child’s growth. The warmth and enthusiasm that fill our classrooms and corridors remind me daily why this school is so special.
+
+At Bal Mitra, we believe that education extends far beyond textbooks and exams. Our goal is to create an environment where every child arrives each morning with excitement—ready to explore new ideas, discover their strengths, and take pride in every achievement.
+
+While academic excellence remains at the core of what we do, it is the broader experiences—sports, arts, performances, and creative pursuits—that truly shape our students into confident, compassionate individuals. These moments stay with them for life, nurturing character as much as intellect.
+
+Together with our dedicated teachers and supportive parents, we continue to make Bal Mitra a place where every child feels valued, inspired, and ready to shine."
+        para2="Bal Mitra School, Prayagraj, is a truly distinctive institution. Parents value our open-door approach, appreciating how easily they can connect with teachers and actively participate in their child’s learning journey. Their support and pride in their children’s achievements are integral to our close-knit school community.
+
+As a nurturing school in Prayagraj, Bal Mitra has earned a reputation for helping every child exceed expectations. By blending the best of our traditions with a forward-looking approach to education, we provide an exceptional learning experience that prepares students not only for the next stage of their schooling but also for success in the 21st century and beyond."
         img2="/photo_4_2025-09-20_00-42-34.jpg"
       />
     </>

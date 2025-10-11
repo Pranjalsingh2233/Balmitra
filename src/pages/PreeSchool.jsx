@@ -17,8 +17,9 @@ export default function PreeSchool() {
       <div className="container p-lg-5">
         <div className="row p-md-5">
           <h1 className="mb-5">
-            Unlock your child’s full potential at Bal Mitra School Pre-School –
-            where early learning begins with care, creativity, and confidence.
+            Unlock Your Child’s Full Potential at Bal Mitra Pre-School,
+            Prayagraj – Where Early Learning Begins with Care, Creativity, and
+            Confidence.
           </h1>
           <div className="col-lg-4 text-start">
             <p>
