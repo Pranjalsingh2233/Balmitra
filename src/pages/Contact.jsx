@@ -173,7 +173,7 @@ export default function Contact() {
             <h1 className="mb-5 text-col">Get in Touch</h1>
             <p>Address:</p>
             <p className="fw-bold fs-4 mb-5">
-              near Water Tank, Preetam Nagar, MIG Preetam Nagar Colony,
+              Near Water Tank, Preetam Nagar, MIG Preetam Nagar Colony,
               Dhoomanganj, Prayagraj, Uttar Pradesh 211011
             </p>
             <p>Email:</p>

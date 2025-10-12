@@ -71,7 +71,7 @@ function Footer() {
               <div className="col-10 visibility">
                 <div>Our Location</div>
                 <p>
-                  near Water Tank, Preetam Nagar, MIG Preetam Nagar Colony,
+                  Near Water Tank, Preetam Nagar, MIG Preetam Nagar Colony,
                   Dhoomanganj, Prayagraj, Uttar Pradesh 211011
                 </p>
               </div>

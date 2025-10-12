@@ -12,6 +12,7 @@ import Schooling from "./pages/Schooling";
 import PreeSchool from "./pages/PreeSchool";
 import Contact from "./pages/Contact";
 import Whatsapp from "./components/Whatsapp";
+import NotFound from "./components/NotFound";
 
 function App() {
   const { pathname } = useLocation();
@@ -31,6 +32,7 @@ function App() {
         <Route path="/about/about-school" element={<AboutSchool />} />
         <Route path="/about/word-from-principal" element={<AboutPrincipal />} />
         <Route path="/about/balmitra-way" element={<BalmitraWay />} />
+        <Route path="*" element={<NotFound />} />
       </Routes>
       <Whatsapp />
       <Footer />

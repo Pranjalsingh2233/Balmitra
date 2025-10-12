@@ -96,7 +96,7 @@ export default function () {
                         onClick={handleClose}
                       >
                         <i class="fa-solid fa-angles-right"></i>&nbsp; A Word
-                        from Our Principal
+                        from Our Director
                       </Link>
                     </li>
                     <li>
