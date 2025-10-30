@@ -11,13 +11,13 @@ export default function BalmitraWay() {
       />
 
       <Hero
-        img="/photo_7_2025-09-20_00-42-26.jpg"
+        img="/img17.webp"
         heading="The Bal Mitra Way"
         para1="At Bal Mitra School, Prayagraj, we take pride in nurturing well-rounded individuals. Our core values guide students to gain deep understanding, embrace challenges with determination, and discover the strength that comes from resilience and hard work."
         para2="The Bal Mitra Way is at the heart of everything we do at Bal Mitra School, Prayagraj, shaping the experiences of our students every day. These values are more than just words—they are guiding principles that inspire children in the classroom, on the playground, and across all aspects of school life.
 
 A highlight of the week is our special Bal Mitra Way assemblies, where the entire school community comes together to celebrate and recognise students who embody these values. It is in these moments of shared pride and encouragement that the true spirit of Bal Mitra, Prayagraj comes alive."
-        img2="/photo_10_2025-09-20_00-42-26.jpg"
+        img2="/img18.webp"
       />
     </>
   );

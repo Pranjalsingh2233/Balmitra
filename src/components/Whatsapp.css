@@ -1,13 +1,14 @@
 /* whatsapp icon */
 .whatsapp {
     position: fixed;
-    bottom: 5rem;
-    right: 1rem;
+    bottom: 3rem;
+    right: 1.5rem;
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 0.5rem;
-    animation: bounce 0.8s linear 
+    animation: bounce 0.8s linear;
+    z-index: 1000;
 }
 
 @keyframes bounce {

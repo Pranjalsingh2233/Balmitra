@@ -15,7 +15,7 @@ export default function Hero({ img, heading, para1, para2, img2 }) {
           height: "70vh",
         }}
       >
-        <img src="/logo.png" alt="student" className="fix-logo" />
+        <img src="/logo.webp" alt="student" className="fix-logo" />
       </div>
       <div className="container p-md-3">
         <h1 className="text-center text-col">{heading}</h1>

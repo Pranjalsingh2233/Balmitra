@@ -1,5 +1,5 @@
 .custom-wrapper {
-    background-image: url("/photo_9_2025-09-20_00-42-26.jpg");
+    background-image: url("/img2.webp");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -39,7 +39,7 @@
 
 .fit-img {
     height: 500px;
-    background-image: url("/photo_5_2025-09-20_00-42-09.jpg");
+    background-image: url("/img7.jpg");
     background-size: cover;
     background-position: center;
     clip-path: polygon(5% 11%, 96% 8%, 95% 98%, 8% 91%);

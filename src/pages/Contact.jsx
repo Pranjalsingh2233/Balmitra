@@ -177,10 +177,10 @@ export default function Contact() {
               Dhoomanganj, Prayagraj, Uttar Pradesh 211011
             </p>
             <p>Email:</p>
-            <p className="fw-bold fs-4 mb-5">Balmitra@gmail.com</p>
-            <p>Phone</p>
-            <p className="fw-bold fs-4 mb-5">1234567890</p>
-            <p>Social</p>
+            <p className="fw-bold fs-4 mb-5">balmitraschool@gmail.com</p>
+            <p>Phone:</p>
+            <p className="fw-bold fs-4 mb-5">+91 840-039-9265</p>
+            <p>Social:</p>
             <p className="fw-bold fs-4 mb-5">
               <div className="d-flex">
                 <a

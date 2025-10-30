@@ -9,21 +9,21 @@ export default function About() {
         <div className="col-md-4">
           <Card
             heading="About our school"
-            image="/photo_9_2025-09-20_00-42-26.jpg"
+            image="/img2.webp"
             link="/about/about-school"
           />
         </div>
         <div className="col-md-4">
           <Card
             heading="A word from our director"
-            image="/photo_8_2025-09-20_00-42-09.jpg"
+            image="/img3.webp"
             link="/about/word-from-principal"
           />
         </div>
         <div className="col-md-4">
           <Card
             heading="Balmitra way"
-            image="/photo_4_2025-09-20_00-42-34.jpg"
+            image="/img16.webp"
             link="/about/balmitra-way"
           />
         </div>

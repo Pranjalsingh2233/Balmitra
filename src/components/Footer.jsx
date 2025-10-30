@@ -8,7 +8,7 @@ function Footer() {
       <div className="container">
         <div className=" row p-3 p-md-5">
           <div className="col-md-4 mb-3">
-            <img src="/logo.png" alt="logo" className="mb-3 logo" />
+            <img src="/logo.webp" alt="logo" className="mb-3 logo" />
             <p className="mb-3 visibility">
               Our aim is to create an environment that nurtures every child’s
               unique talents and helps them reach their fullest potential.
@@ -94,7 +94,7 @@ function Footer() {
         </div>
         <div>
           <div className="p-md-5 bottom-links visibility">
-            <div> &copy; 1986-2025, Bal Mitra School</div>
+            <div> &copy; 1986-{new Date().getFullYear()}, Bal Mitra School</div>
             <div> All rights reserved.</div>
           </div>
         </div>

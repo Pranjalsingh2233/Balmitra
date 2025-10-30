@@ -26,7 +26,7 @@ export default function MyMap() {
             border: "2px solid #000",
           }}
         >
-          <img src="/logo.png" alt="logo" className="img-fluid" />
+          <img src="/logo.webp" alt="logo" className="img-fluid" />
         </div>
       </Marker>
     </Map>

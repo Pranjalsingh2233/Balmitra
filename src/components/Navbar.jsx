@@ -18,7 +18,7 @@ export default function () {
       <nav class="navbar navbar-expand-md fixed-top border-bottom">
         <div class="container">
           <Link class="navbar-brand" to="/">
-            <img src="/logo.png" alt="logo" className="hover-stop" />
+            <img src="/logo.webp" alt="logo" className="hover-stop" />
           </Link>
           <button
             class="navbar-toggler"

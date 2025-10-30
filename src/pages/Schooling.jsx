@@ -11,13 +11,13 @@ export default function Schooling() {
       />
 
       <Hero
-        img="/photo_1_2025-09-20_00-42-26.jpg"
+        img="/img10.webp"
         heading="Bal Mitra Primary to Senior Secondary School in Prayagraj"
         para1="Bal Mitra School, Prayagraj, is a thriving Primary to Senior Secondary institution nurturing students from Classes 1 to 12. Our academic achievements are commendable, but they represent only one part of our story. At Bal Mitra, we emphasize community, character, and creativity—encouraging every student to discover their individuality and make meaningful contributions to the world around them.
 
 Located in Prayagraj, our campus offers state-of-the-art facilities, including dedicated subject-specific classrooms, a modern sports hall, all-weather sports grounds, a nature centre, and spacious areas designed for exploration, play, and growth."
         para2="As our students progress through Primary to Secondary, they are encouraged to embrace greater freedom and take on more responsibility for their personal growth and achievements. Guided by specialist teachers, they follow a comprehensive and challenging curriculum that goes well beyond the standard requirements. At Bal Mitra School, learners are supported in extending their knowledge, refining their skills, and excelling in an environment filled with encouragement and care."
-        img2="/photo_2_2025-09-20_00-42-09.jpg"
+        img2="/img11.webp"
       />
       <div className="container">
         <div className="row text-center align-items-center">
@@ -34,7 +34,7 @@ Located in Prayagraj, our campus offers state-of-the-art facilities, including d
           <h2 className="mt-5">Music</h2>
           <div className="col-md-6 mt-5 mb-md-5">
             <img
-              src="/photo_6_2025-09-20_00-42-09.jpg"
+              src="/img5.webp"
               className="img-fluid"
               alt="music"
               style={{
@@ -73,7 +73,7 @@ Located in Prayagraj, our campus offers state-of-the-art facilities, including d
           </div>
           <div className="col-md-6 mt-md-5 mb-5">
             <img
-              src="/photo_6_2025-09-20_00-42-26.jpg"
+              src="/img12.webp"
               className="img-fluid"
               alt="music"
               style={{
@@ -87,7 +87,7 @@ Located in Prayagraj, our campus offers state-of-the-art facilities, including d
           <h2 className="mt-5">Sport</h2>
           <div className="col-md-6 mt-md-5 mt-3 mb-md-5">
             <img
-              src="/photo_3_2025-09-20_00-42-34.jpg"
+              src="/img13.webp"
               className="img-fluid"
               alt="music"
               style={{
@@ -127,7 +127,7 @@ Located in Prayagraj, our campus offers state-of-the-art facilities, including d
           </div>
           <div className="col-md-6 mt-md-5 mb-5">
             <img
-              src="/photo_5_2025-09-20_00-42-26.jpg"
+              src="/img14.webp"
               className="img-fluid"
               alt="music"
               style={{

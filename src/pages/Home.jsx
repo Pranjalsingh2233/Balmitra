@@ -41,7 +41,7 @@ export default function Home() {
             The Perfect School for Every Child in Prayagraj
           </h2>
         </div>
-        <img src="/logo.png" alt="student" className="fix-logo" />
+        <img src="/logo.webp" alt="student" className="fix-logo" />
       </div>
 
       <div className="container p-md-3 mb-5 down">
@@ -76,12 +76,26 @@ export default function Home() {
             A Very Warm Welcome From Our Director
           </h2>
           <div className="col-lg-6 mt-5">
-            <video className="video" src="" autoPlay controls></video>
+            <img
+              src="/director.webp"
+              alt="director"
+              className="img-fluid"
+              style={{
+                height: "400px",
+                objectFit: "cover",
+                borderRadius: "10px",
+              }}
+            />
           </div>
           <div className="col-lg-6 mt-5">
             <p className="fs-5 text-col">
-              Our school thrives on providing an education that is purposeful,
-              diverse, and truly enjoyable.
+              At our school, we believe education should inspire, engage, and
+              empower every child. We strive to provide learning that is
+              purposeful, diverse, and truly enjoyable — helping students grow
+              not only in knowledge but also in confidence and character. Our
+              goal is to create an environment where curiosity thrives,
+              creativity is encouraged, and every child feels supported to
+              achieve their best.
             </p>
           </div>
         </div>
@@ -93,11 +107,7 @@ export default function Home() {
           <div className="col-lg-6 mt-5">
             <Link className="box" to="/preschool">
               <div>
-                <img
-                  src="/photo_9_2025-09-20_00-42-26.jpg"
-                  className="img-fluid"
-                  alt="preschool"
-                />
+                <img src="/img2.webp" className="img-fluid" alt="preschool" />
               </div>
               <div className="inner-box">
                 <h3>Preschool</h3>
@@ -109,11 +119,7 @@ export default function Home() {
           <div className="col-lg-6 mt-5">
             <Link className="box" to="/schooling">
               <div>
-                <img
-                  src="/photo_8_2025-09-20_00-42-09.jpg"
-                  className="img-fluid"
-                  alt="preschool"
-                />
+                <img src="/img3.webp" className="img-fluid" alt="preschool" />
               </div>
               <div className="inner-box">
                 <h3>Primary to Senior Secondary School</h3>
@@ -146,31 +152,19 @@ export default function Home() {
         <div className="row p-md-5 text-center">
           <div className="col-md-3 col-6">
             <img
-              src="/photo_4_2025-09-20_00-42-09.jpg"
+              src="/img4.webp"
               className="img-fluid mb-3 rounded"
               alt="gallery"
             />
           </div>
           <div className="col-md-3 col-6">
-            <img
-              src="/photo_6_2025-09-20_00-42-09.jpg"
-              className="img-fluid rounded"
-              alt="gallery"
-            />
+            <img src="/img5.webp" className="img-fluid rounded" alt="gallery" />
           </div>
           <div className="col-md-3 col-6">
-            <img
-              src="/photo_8_2025-09-20_00-42-26.jpg"
-              className="img-fluid rounded"
-              alt="gallery"
-            />
+            <img src="/img6.webp" className="img-fluid rounded" alt="gallery" />
           </div>
           <div className="col-md-3 col-6 mb-5">
-            <img
-              src="/photo_5_2025-09-20_00-42-09.jpg"
-              className="img-fluid rounded"
-              alt="gallery"
-            />
+            <img src="/img7.jpg" className="img-fluid rounded" alt="gallery" />
           </div>
           <h2 className="fs-1 mb-3 text-col">
             Ready to start the journey of a lifetime?

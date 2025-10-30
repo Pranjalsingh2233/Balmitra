@@ -36,16 +36,8 @@ export default function PreeSchool() {
           </div>
           <div className="col-lg-8">
             <div className="float-box">
-              <img
-                src="/photo_8_2025-09-20_00-42-26.jpg"
-                alt="students"
-                className="floating-img"
-              />
-              <img
-                src="/photo_7_2025-09-20_00-42-21.jpg"
-                alt="students"
-                className="floating-img2"
-              />
+              <img src="/img8.webp" alt="students" className="floating-img" />
+              <img src="/img6.webp" alt="students" className="floating-img2" />
             </div>
           </div>
         </div>
@@ -78,32 +70,16 @@ export default function PreeSchool() {
       <div className="container p-md-3">
         <div className="row p-md-5 text-center">
           <div className="col-md-3 col-6 mb-3">
-            <img
-              src="/photo_4_2025-09-20_00-42-09.jpg"
-              className="img-fluid rounded"
-              alt="gallery"
-            />
+            <img src="/img4.webp" className="img-fluid rounded" alt="gallery" />
           </div>
           <div className="col-md-3 col-6">
-            <img
-              src="/photo_6_2025-09-20_00-42-09.jpg"
-              className="img-fluid rounded"
-              alt="gallery"
-            />
+            <img src="/img5.webp" className="img-fluid rounded" alt="gallery" />
           </div>
           <div className="col-md-3 col-6">
-            <img
-              src="/photo_8_2025-09-20_00-42-21.jpg"
-              className="img-fluid rounded"
-              alt="gallery"
-            />
+            <img src="/img9.webp" className="img-fluid rounded" alt="gallery" />
           </div>
           <div className="col-md-3 mb-5 col-6">
-            <img
-              src="/photo_7_2025-09-20_00-42-21.jpg"
-              className="img-fluid rounded"
-              alt="gallery"
-            />
+            <img src="/img8.webp" className="img-fluid rounded" alt="gallery" />
           </div>
           <h2 className="fs-1 mb-3">
             Ready to start the journey of a lifetime?
