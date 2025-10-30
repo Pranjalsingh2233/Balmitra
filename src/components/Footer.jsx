@@ -4,7 +4,7 @@ import "./Footer.css";
 
 function Footer() {
   return (
-    <footer className="border-top mt-5">
+    <footer className="border-top mt-5 pb-3">
       <div className="container">
         <div className=" row p-3 p-md-5">
           <div className="col-md-4 mb-3">
@@ -96,6 +96,17 @@ function Footer() {
           <div className="p-md-5 bottom-links visibility">
             <div> &copy; 1986-{new Date().getFullYear()}, Bal Mitra School</div>
             <div> All rights reserved.</div>
+            <div>
+              Developed by{" "}
+              <a
+                href="https://digibrandmedia.netlify.app/"
+                target="_blank"
+                rel="noopener noreferrer"
+                style={{ textDecoration: "underline" }}
+              >
+                Adzify
+              </a>
+            </div>
           </div>
         </div>
       </div>
