@@ -14,7 +14,7 @@ export default function Whatsapp() {
   return (
     <div className="whatsapp">
       <p>Need any help?</p>
-      <a href="https://wa.me/8400399265" target="_blank" rel="noreferrer">
+      <a href="https://wa.me/918400399265" target="_blank" rel="noreferrer">
         <img src="/whatsapp.webp" alt="WhatsApp" />
       </a>
     </div>

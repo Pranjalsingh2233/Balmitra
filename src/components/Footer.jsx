@@ -29,7 +29,7 @@ function Footer() {
                 <i class="fa-brands fa-facebook profile"></i>
               </a>
               <a
-                href="https://wa.me/8400399265"
+                href="https://wa.me/918400399265"
                 target="_blank"
                 className="me-3"
               >
