@@ -31,12 +31,13 @@ export default function Home() {
   return (
     <>
       <Seo
-        title="Bal Mitra School, Prayagraj – Nurturing Education & Holistic Development"
-        description="Bal Mitra School in Prayagraj provides a caring, high-quality education for children from preschool to primary levels. Enroll your child for a strong academic foundation and holistic growth."
+        title="Best School in Prayagraj – Bal Mitra School | Best Learning for Children"
+        description="Looking for the best school in Prayagraj? Bal Mitra School offers high-quality education, experienced teachers, and a nurturing environment for holistic child development."
       />
+
       <div className="wrapper mb-5 bg-home ">
         <div className="p-5 text-center fw-bold">
-          <h1 className="fw-bold">Welcome to Bal Mitra</h1>
+          <h1 className="fw-bold">Bal Mitra School, Prayagraj</h1>
           <h2 className="fs-5 mt-3">
             The Perfect School for Every Child in Prayagraj
           </h2>
