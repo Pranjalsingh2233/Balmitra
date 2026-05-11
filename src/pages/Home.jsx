@@ -35,10 +35,13 @@ export default function Home() {
         description="Looking for the best school in Prayagraj? Bal Mitra School offers high-quality education, experienced teachers, and a nurturing environment for holistic child development."
       />
 
-      <div className="wrapper mb-5 bg-home ">
-        <div className="p-5 text-center fw-bold">
-          <h1 className="fw-bold">Bal Mitra School, Prayagraj</h1>
-          <h2 className="fs-5 mt-3">
+      <div className="wrapper mb-5">
+        <img src="/hero-img.jpg" alt="hero" className="w-100" />
+        <div className="text-center fw-bold opacity-0">
+          <h1 className="fw-bold" style={{ lineHeight: "0" }}>
+            Bal Mitra School, Prayagraj
+          </h1>
+          <h2 className="fs-5 mt-3" style={{ lineHeight: "0" }}>
             The Perfect School for Every Child in Prayagraj
           </h2>
         </div>

@@ -1,5 +1,4 @@
 .wrapper {
-    background-color: #22335f;
     color: #fff;
     padding-bottom: 10px;
     position: relative;
@@ -8,12 +7,12 @@
 .bg-home {
     background: 
     linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), 
-    url("/img1.webp");  
+    url("/hero-img.jpg");  
     background-repeat: no-repeat;
     background-position: center;
-    background-size: cover;
+    background-size: contain;
     background-attachment: fixed;
-    height: 60vh;
+    height: 70vh;
 }
 
 .padding {
