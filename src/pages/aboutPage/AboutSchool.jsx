@@ -23,7 +23,7 @@ Our dedicated teachers at Bal Mitra, Prayagraj, foster an inclusive and supporti
       {/* <!-- Fee Structure --> */}
       <div class="container py-5">
   <div class="text-center mb-5">
-    <h1 class="fw-bold">Bal Mitra School (ICSE Wing)</h1>
+    <h2 class="fw-bold">Bal Mitra School (ICSE Wing)</h2>
     <p class="text-muted fs-5">Fee Structure 2026-27</p>
   </div>
 

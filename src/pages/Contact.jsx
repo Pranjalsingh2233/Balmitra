@@ -1,6 +1,7 @@
 import { useState } from "react";
 import Map from "../components/Map";
 import Seo from "../components/Seo";
+import emailjs from "@emailjs/browser";
 
 export default function Contact() {
   const [formData, setFormData] = useState({
@@ -11,7 +12,6 @@ export default function Contact() {
     subject: "",
     message: "",
   });
-
   const [submitted, setSubmitted] = useState(false);
 
   const handleChange = (e) => {
@@ -27,13 +27,18 @@ export default function Contact() {
     setSubmitted(true);
 
     try {
-      const res = await fetch("http://localhost:8080/contact-balmitra", {
-        method: "POST",
-        headers: {
-          "Content-Type": "application/json",
-        },
-        body: JSON.stringify(formData),
-      });
+      emailjs
+        .send("service_fuu0lgs", "template_ff4ufi7", formData, {
+          publicKey: "r42shFSlk4RqL0-vF",
+        })
+        .then(
+          () => {
+            console.log("SUCCESS!");
+          },
+          (error) => {
+            console.log("FAILED...", error.text);
+          },
+        );
 
       setFormData({
         name: "",
@@ -57,8 +62,14 @@ export default function Contact() {
         title="Contact Bal Mitra School, Prayagraj – Get in Touch"
         description="Get in touch with Bal Mitra School in Prayagraj for admissions, inquiries, or more information. Our team is here to answer your questions and guide you through your child’s educational journey."
       />
-
-      <Map />
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3602.549849351001!2d81.77880630000001!3d25.453308999999997!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x399acb5f8045092b%3A0x3271224766583a82!2sBal%20Mitra%20School%20%E2%80%93%20Preetam%20Nagar%2C%20Prayagraj!5e0!3m2!1sen!2sin!4v1778497230980!5m2!1sen!2sin"
+        width="100%"
+        height="450"
+        allowfullscreen=""
+        loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade"
+      ></iframe>
       <div className="container mt-5">
         <div className="row align-items-center">
           <div className="col-lg-6">
